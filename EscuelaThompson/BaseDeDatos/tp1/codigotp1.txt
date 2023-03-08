@@ -1,0 +1,9 @@
+Querys:
+CREATE TABLE `clientes` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(45) NULL,
+  `dni` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+
+INSERT INTO `clientes` (`nombre`, `direccion`) VALUES ('juan', '345645645'); .
