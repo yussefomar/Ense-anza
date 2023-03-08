@@ -6,4 +6,4 @@ CREATE TABLE `clientes` (
   PRIMARY KEY (`id`));
 
 
-INSERT INTO `clientes` (`nombre`, `direccion`) VALUES ('juan', '345645645'); .
+INSERT INTO `clientes` (`nombre`, `dni`) VALUES ('juan', '345645645'); .
