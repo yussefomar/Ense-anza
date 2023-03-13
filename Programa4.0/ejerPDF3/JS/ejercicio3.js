@@ -1,6 +1,6 @@
  //porque se parsea?
 let num1=parseInt( prompt("ingrese un numero"));
-//las dos formas son correctas
+//las dos formas son correctas, es lo mismo.
 //primer forma
 let cuadrado=num1*num1;
 alert(cuadrado);
