@@ -1,0 +1,16 @@
+* {
+    font-family: sans-serif;
+  }
+  body {
+    padding: 10px 20px;
+  }
+  button {
+    margin-left: 10px;
+    background: none;
+    outline: none;
+    border-radius: 3px;
+  }
+  button:hover {
+    background: #eee;
+  }
+  

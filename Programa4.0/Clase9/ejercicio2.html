@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <script src="JS/ejercicio2.js" script>
+
+    </script>
+</head>
+
+<body>
+
+
+
+    <script>
+        let cuentaMartin = crearCuentaDeBanco(1, 5000);
+        cuentaMartin.misDatos();
+        let cuentaJuan = crearCuentaDeBanco(2, 1000);
+        cuentaJuan.misDatos();
+        cuentaJuan.depositar(100);
+        cuentaJuan.extraer(1000);
+        cuentaJuan.transferir(40,cuentaMartin);
+        let numEjercicio = parseInt(prompt("ingrese el numero del ejercicio"));
+        switch (numEjercicio) {
+            case 1:
+                document.write(" el perimetro es " + rectangulo.perimetro() + "el area es " + rectangulo.area());
+                break;
+            case 2:
+                document.write(crearArreglo());
+                break;
+            default:
+                break;
+
+        }
+
+    </script>
+</body>
+
+</html>
